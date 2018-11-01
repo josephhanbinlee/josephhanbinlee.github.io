@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>joseph's world</title>
+    <link rel="icon" type="image/gif" href="&#9775" />
+</head>
+
+<body>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<ul class="mainmenu"> 
+  <li> <a href="#home" id="menu-text">home</a> </li>
+  <li> <a href="#about" id="menu-text">about</a> </li>
+  <li> <a href="#works_title" id="menu-text">works</a>
+    <ul class="submenu">
+        <li><a href="motiongraphics.html">motion graphics</a></li>
+        <li><a href="whitelight.html">white light</a></li>
+        <li><a href="nyc.html">dear new york city</a></li>
+        <li><a href="thosenights.html">those nights</a></li>
+        <li><a href="slovenia.html">slovenia</a></li>
+        <li><a href="abouttime.html">about time</a></li>
+      </ul> 
+    </li>
+  <li> <a href="#contact" id="menu-text">contact</a> </li>
+</ul>
+</div>
+    
+<div id="main">
+    <span style="color: white; font-size:30px;cursor:pointer" onclick="openNav()">&#9776</span>
+    
+<!--<img src="https://josephhanbinlee.github.io/assets/finalstreetwearlogo.png" id="image-background" alt = "Main Background">-->
+<video autoplay loop id="video-background" muted plays-inline>
+  <source src="https://josephhanbinlee.github.io/assets/whitelightedit.mp4" type="video/mp4">
+</video>
+    
+    <div id="home"> 
+        <h1 style = "margin-top: auto; margin-bottom: auto; color: white;" id="fade"> w e l c o m e </h1>
+    </div>
+    <div id="about">
+        <h1> ABOUT ME</h1>
+        <p> Greetings from afar! My name is Joseph Lee, a sophomore studying Integrated Digital Media at NYU.</p>
+        <p> Though I was born in Texas, growing up in the metropolitan areas of Seoul, South Korea, has opened me to the wonders of Korean culture that are often so unknown in the States, compelling me to pursue a career in <strong> filmmaking </strong> and <strong> digital marketing </strong> in order to further promote the wave of East Asia's cultural products, particularly in the realms of entertainment and the arts, to the West.</p>
+        <p> From music videos to mockumentaries, arthouse films to YouTube comedies, <strong>if it's a story I want to tell, then I push through to make my artistic visions a reality.</strong></p>
+    </div>
+    <div id="works_title"> <h1> W O R K S </h1> </div>
+    <div id="works">
+        <div class="image-container">
+            <a href = "whitelight.html"> <img alt = "White Light" src = "https://josephhanbinlee.github.io/assets/whitelight.png"> </a>
+            <div class = "middle">
+                <div class="image-description"> white light </div>
+            </div>
+        </div>
+        
+        <div class="image-container">
+            <a href = "nyc.html"> <img alt = "Dear New York City" src = "https://josephhanbinlee.github.io/assets/dear new york city.png"> </a> 
+            <div class = "middle">
+                <div class="image-description"> dear new york city </div>
+            </div>
+        </div>
+        
+        <div class="image-container">
+            <a href = "thosenights.html"> <img alt = "Those Nights" src = "https://josephhanbinlee.github.io/assets/those nights.png"> </a> 
+            <div class = "middle">
+                <div class="image-description"> those nights </div>
+            </div>
+        </div>
+        
+        <div class="image-container">
+            <a href = "slovenia.html"> <img alt = "Slovenia" src = "https://josephhanbinlee.github.io/assets/slovenia.png"> </a>
+            <div class = "middle">
+                <div class="image-description"> slovenia </div>
+            </div>
+        </div>
+        
+        <div class="image-container">
+            <a href = "abouttime.html"> <img alt = "about time" src = "https://josephhanbinlee.github.io/assets/about time.png"> </a>
+            <div class = "middle">
+                <div class="image-description"> about time </div>
+            </div>
+        </div>
+        
+        <div class="image-container">
+            <a href = "motiongraphics.html"> <img alt = "motion graphics" src = "https://josephhanbinlee.github.io/assets/motiongraphics.png"> </a> 
+            <div class = "middle">
+                <div class="image-description"> motion graphics</div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="contact" class="flex-container"> 
+        <center> <h1> q u e s t i o n s ? </h1> </center>
+        <div class="sub-flex-container">
+            <div class="inner-container"> 
+                <h2> address </h2> 
+                <p> 25 Union Square West, </p> <p>New York, NY, 10003 </p>
+            </div>
+            
+            <div class="inner-container">
+                <h2> contact me </h2>
+                <p> 201-968-7313 </p> <p> jhl843@nyu.edu</p>
+            </div>
+            
+            <div class="inner-container"> 
+                <h2> follow me </h2>
+                <a href="https://www.instagram.com/hanbin_ie/" class = "fa fa-instagram"></a>
+                    <a href="https://vimeo.com/josephhanbinlee" class = "fa fa-vimeo"></a>
+                    <a href="https://www.linkedin.com/in/josephhanbinlee/" class = "fa fa-linkedin"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+    
+setTimeout(function() { // start a delay
+  var fade = document.getElementById("fade"); // get required element
+  fade.style.opacity = 1; // set opacity for the element to 1
+  var timerId = setInterval(function() { // start interval loop
+    var opacity = fade.style.opacity; // get current opacity
+    if (opacity == 0) { // check if its 0 yet
+      clearInterval(timerId); // if so, exit from interval loop
+    } else {
+      fade.style.opacity = opacity - 0.05; // else remove 0.05 from opacity
+    }
+  }, 70); // run every 0.07 second
+}, 5000); // wait to run after 2 seconds
+</script>
+</body>
+</html>

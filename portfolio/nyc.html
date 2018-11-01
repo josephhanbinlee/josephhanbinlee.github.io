@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>joseph's world</title>
+</head>
+
+<body>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<ul class="mainmenu"> 
+  <li> <a href="index.html" id="menu-text">home</a> </li>
+  <li> <a href="index.html#about" id="menu-text">about</a> </li>
+  <li> <a href="index.html#works_title" id="menu-text">works</a>
+    <ul class="submenu">
+        <li><a href="motiongraphics.html">motion graphics</a></li>
+        <li><a href="whitelight.html">white light</a></li>
+        <li><a href="nyc.html" style="color: #f1f1f1;">dear new york city</a></li>
+        <li><a href="thosenights.html">those nights</a></li>
+        <li><a href="slovenia.html">slovenia</a></li>
+        <li><a href="abouttime.html">about time</a></li>
+      </ul> 
+    </li>
+  <li> <a href="index.html#contact" id="menu-text">contact</a> </li>
+</ul>
+</div>
+    
+<div id="main">
+    <span style="color: white; font-size:30px;cursor:pointer" onclick="openNav()">&#9776</span>
+
+<!--<img src="https://josephhanbinlee.github.io/assets/dearnycedit-background.png" id="video-background" alt = "Dear NYC Background">-->
+
+<video autoplay loop id="video-background" muted plays-inline>
+  <source src="https://josephhanbinlee.github.io/assets/dearnycedit.mp4" type="video/mp4">
+</video>
+
+
+<div class="flex-container"> 
+    <iframe src="https://player.vimeo.com/video/287255986" width="942" height="530" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <h1 style = "background: rgba(0, 0, 0, .5); padding: 10px;"> dear new york city </h1>
+</div>
+    
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.container {
+    font-family: "Avenir";
+    width: 100%;
+    background-color: whitesmoke;
+}
+.col {
+    padding: 30px;
+    margin: 5px;
+}
+#header {
+    font-size: 30px;
+    background: gray;
+    color: white;
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+    font-size: 14.5px;
+    font-style: italic;
+    background: yellow;
+}
+
+#apple {
+    text-align: center;
+    background: white;
+}
+
+#spotify {
+    text-align: center;
+    color: white;
+    background: #84bd00;
+}
+
+#conclusion {
+    background: antiquewhite;
+    font-size: 30px;
+    text-align: center;
+}
