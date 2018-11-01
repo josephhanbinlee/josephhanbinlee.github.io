@@ -1,0 +1,141 @@
+nav {
+    text-align: center;
+    background-color: azure;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.nav-wrapper li {
+    display: inline;
+    padding: 30px;
+}
+
+.nav-wrapper a {
+    font-family: "Gastromond";
+    color: black;
+}
+
+#home {
+    background-color: antiquewhite;
+    height: 300px;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#about {
+    background-color: lightcoral;
+    height: 300px;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#works {
+    background-color: powderblue;
+    height: 300px;
+    padding: 50px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    background-color: floralwhite;
+    height: 300px;
+    padding: 50px 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+p {
+    font-family: "Avenir";
+    font-size: 19px;
+}
+
+a {
+   font-family: "Avenir";
+    font-size: 19px;
+    justify-content: center; 
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 320px;
+    background-color: black;
+    padding: 10px;
+}
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.desc {
+    font-family: "Avenir";
+    padding: 5px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    padding: 25px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.fa {
+  font-size: 30px;
+    padding: 7.5px;
+  text-align: center;
+  text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    background: black;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+  color: white; 
+}
+
+.sns-container {
+    padding: 10px;
+}
