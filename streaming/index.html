@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Streaming Services Analysis</title>
+</head>
+
+<body>
+<div class="main-container">
+    
+<video autoplay muted loop id="video-background">
+  <source src="https://josephhanbinlee.github.io/streaming/spotify.mp4" type="video/mp4">
+</video>
+    <h1 style="font-size: 75px;"> Streaming Services Survey </h1>
+    <div class= "double-container">
+        <div class="flex-container-title">
+            <p id="main"> Let's Look at the Survey Results! <p>
+            <div id = "survey_info">
+            <p> Total # of survey participants: 31 participants </p>
+            <p> Spotify users: 17 participants (54.8%) </p>
+            <p> Apple Music users: 9 participants (29%) </p>
+            <p> Other (YouTube, Soundcloud, Pandora, etc.): 5 participants (16.2%) </p>
+            </div>
+            
+            <div id="colors">
+                <div id="green"></div> <p> = Spotify </p>
+                <div id = "pink"></div> <p> = Apple Music </p>
+            </div>
+        </div>
+        <div class="flex-container"> 
+            <h3> I factor in how quickly new K-pop releases are available to me when choosing my streaming services. </h3>
+            <div class="release_date_chart">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+                <div class="bar-4"></div>
+                <div class="bar-5"></div>
+                <div class="bar-6"></div>
+                <div class="bar-7"></div>
+                <div class="bar-8"></div>
+                <div class="bar-9"></div>
+                <div class="bar-10"></div>
+            </div>
+            <hr width=95%;>
+            <div class = "number-container">
+                <ul>
+                    <li> Strongly Disagree </li>
+                    <li> Disagree </li>
+                    <li> Neutral </li>
+                    <li> Agree </li>
+                    <li> Strongly Agree </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class = "double-container">
+        <div class="flex-container"> 
+            <h3> I am content with the curated playlists that my primary streaming service of choice provides to me. </h3>
+            <div class="curated_playlist_chart">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+                <div class="bar-4"></div>
+                <div class="bar-5"></div>
+                <div class="bar-6"></div>
+                <div class="bar-7"></div>
+                <div class="bar-8"></div>
+                <div class="bar-9"></div>
+                <div class="bar-10"></div>
+            </div>
+            <hr width=95%;>
+            <div class = "number-container">
+                <ul>
+                    <li> Strongly Disagree </li>
+                    <li> Disagree </li>
+                    <li> Neutral </li>
+                    <li> Agree </li>
+                    <li> Strongly Agree </li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex-container"> 
+            <h3> I actively use the playlists provided by my streaming service in order to discover new acts. </h3>
+            <div class="new_acts_chart">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+                <div class="bar-4"></div>
+                <div class="bar-5"></div>
+                <div class="bar-6"></div>
+                <div class="bar-7"></div>
+                <div class="bar-8"></div>
+                <div class="bar-9"></div>
+                <div class="bar-10"></div>
+            </div>
+            <hr width=95%;>
+            <div class = "number-container">
+                <ul>
+                    <li> Strongly Disagree </li>
+                    <li> Disagree </li>
+                    <li> Neutral </li>
+                    <li> Agree </li>
+                    <li> Strongly Agree </li>
+                </ul>
+            </div>
+        </div>
+    </div>   
+    
+    <div class = "double-container">
+        <div class="flex-container">
+            <h3> I factor in how extensive the K-pop selection (how much music is available) is when choosing my streaming service. </h3>
+            <div class="catalog_chart">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+                <div class="bar-4"></div>
+                <div class="bar-5"></div>
+                <div class="bar-6"></div>
+                <div class="bar-7"></div>
+                <div class="bar-8"></div>
+                <div class="bar-9"></div>
+                <div class="bar-10"></div>
+            </div>
+            <hr width=95%;>
+            <div class = "number-container">
+                <ul>
+                    <li> Strongly Disagree </li>
+                    <li> Disagree </li>
+                    <li> Neutral </li>
+                    <li> Agree </li>
+                    <li> Strongly Agree </li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex-container">
+            <h3> When using a streaming service, I already know exactly what kind of songs I want to save/download. </h3>
+            <div class="download_chart">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+                <div class="bar-4"></div>
+                <div class="bar-5"></div>
+                <div class="bar-6"></div>
+                <div class="bar-7"></div>
+                <div class="bar-8"></div>
+                <div class="bar-9"></div>
+                <div class="bar-10"></div>
+            </div>
+            <hr width=95%;>
+            <div class = "number-container">
+                <ul>
+                    <li> Strongly Disagree </li>
+                    <li> Disagree </li>
+                    <li> Neutral </li>
+                    <li> Agree </li>
+                    <li> Strongly Agree </li>
+                </ul>
+            </div>
+        </div>
+    </div>   
+    
+    <div class="double-container">
+        <div class="flex-container">
+            <h3> I find myself listening to a lot of lesser-known Korean artists (i.e. Nell, Park Ji-Yoon, Lim Kim, Sunwoo Jung-ah, etc.) </h3>
+            <div class="indie_chart">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+                <div class="bar-4"></div>
+                <div class="bar-5"></div>
+                <div class="bar-6"></div>
+                <div class="bar-7"></div>
+                <div class="bar-8"></div>
+                <div class="bar-9"></div>
+                <div class="bar-10"></div>
+            </div>
+            <hr width=95%;>
+            <div class = "number-container">
+                <ul>
+                    <li> Strongly Disagree </li>
+                    <li> Disagree </li>
+                    <li> Neutral </li>
+                    <li> Agree </li>
+                    <li> Strongly Agree </li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex-container">
+        <h3> If a streaming service provides exclusive content related to my favorite K-Pop artists, I'd be interested in using/switching to that platform.  </h3>
+        <div class="content_chart">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+            <div class="bar-4"></div>
+            <div class="bar-5"></div>
+            <div class="bar-6"></div>
+            <div class="bar-7"></div>
+            <div class="bar-8"></div>
+            <div class="bar-9"></div>
+            <div class="bar-10"></div>
+        </div>
+            <hr width=95%;>
+            <div class = "number-container">
+                <ul>
+                    <li> Strongly Disagree </li>
+                    <li> Disagree </li>
+                    <li> Neutral </li>
+                    <li> Agree </li>
+                    <li> Strongly Agree </li>
+                </ul>
+            </div>
+    </div>
+    </div>
+    
+    <div class="flex-container" id="header" style = "background-color: #565656; padding-bottom: 20px;">
+        <h1 style = "margin-bottom: 0px;"> Survey Results Analysis </h1>
+        <hr width=75%;>
+        <ul style = "width: 850px;">
+            <li> <span class = "apple"> Apple Music</span> customers tend to prioritize how quickly music is released <span class = emphasize> more</span> than <span class="spotify"> Spotify</span> customers. </li>
+            <li> <span class="spotify"> Spotify</span> customers are generally <span class = "emphasize">more satisfied</span> with their curated playlists than those of <span class="apple"> Apple Music</span> customers. </li>
+            <ul>
+                <li> Along with that, <span class = "apple"> Apple Music</span> customers are <span class="emphasize"> less likely</span> to use their streaming service to discover acts than <span class="spotify">Spotify</span> customers.</li>
+                <li> This makes sense because <span class="apple">Apple Music</span> customers tend to be <span class = "emphasize"> more confident</span> about what kind of music they would want to download. </li>
+            </ul>
+            <li> Customers of both platforms tend to <span class = "emphasize">have generally neutral opinions</span> about listening to "lesser-known Korean artists." </li>
+            <li> On the other hand, customers of both platforms also consider <span class = "emphasize">how extensive</span> the song catalog is when choosing their platform. </li>
+            <ul>
+                <li> In fact, customers of both platforms both shared their <span class="emphasize" style = "color: orangered;">dissatisfaction</span> in how their streaming services tend to fall short of offering a greater catalog.</li>
+            </ul>
+        </ul>
+    </div>
+    
+    <div class="flex-container" id="header" style = "background-color: #565656; padding-bottom: 20px;">
+        <h1 style = "margin-bottom: 0px;"> T E S T I M O N I A L S </h1>
+        <hr width=75%;>
+        <h2 style = "margin: 5px;"> Shared Issues </h2>
+        <div class = "double-container" style = "border: solid antiquewhite 1px; margin: 5px; padding-top: 20px;">
+        <div class = "flex-container-empty">
+            <h2> Difficulty finding songs </h2>
+            <ul>
+                <li style = "font-style: italic; color: #84bd00;"> "The Korean songs are never listed with their original Korean titles, and are thus hard to recognize."</li>
+                <li style = "font-style: italic; color: #84bd00;"> "All the songs are in English so sometimes I can’t find certain songs."</li>
+                <li style = "font-style: italic; color: #84bd00;"> "...just sometimes harder to find artists or songs that aren't very well-known." </li>
+                <li style = "font-style: italic; color: #fa57c1;"> "Having a better search engine. It’s almost impossible to find [K-pop] songs on Apple Music." </li> 
+                <li style = "font-style: italic; color: #fa57c1;"> "All the songs are in English so sometimes I can’t find certain songs." </li> 
+            </ul>
+            </div>
+            <div class = "flex-container-empty">
+                <h2 style = "font-size: 24px;"> Lacking discography </h2>
+            <ul>
+                <li style = "font-style: italic; color: #84bd00;"> "More lesser-known artists' songs available, more of extensive (complete) availability of artists' discography." </li>
+                <li style = "font-style: italic; color: #84bd00;"> "More older content (Ex: SNSD's older stuff is not on Spotify)." </li>
+                <li style = "font-style: italic; color: #84bd00;"> "...the [K-pop] playlists on Spotify are still pretty mainstream in my opinion. I rarely see for example Kpop indie or even hip-hop on there!" </li>
+                <li style = "font-style: italic; color: #84bd00;"> "[M]ore underrated artists would be nice! [Spotify] lacks variety when it comes to some artists!!!"</li>
+                <li style = "font-style: italic; color: #84bd00;"> "More variety in older Korean music, classic songs from the 90s."</li>
+                <li style = "font-style: italic; color: #fa57c1;"> "Apple Music did not have lesser known music that I enjoy."</li>
+                <li style = "font-style: italic; color: #fa57c1;"> "I also find some artists [on Spotify] I couldn't find on Apple Music."</li>
+            </ul>
+        </div>
+    </div> 
+        
+        <h2 style = "margin: 20px;"> Advantages </h2>
+        <div class = "double-container">
+            <div class="flex-container" style = "padding-right: 25px;">
+                <h2 style = "margin-bottom: -5px;"> Spotify </h2>
+                <ul>
+                    <li> Better connectivity with other social media platforms</li>
+                    <ul>
+                        <li style = "font-style: italic">“I like to share my music playlists with my friends and more of them have Spotify”</li>
+                        <li style = "font-style: italic">"...[There are] also more options to connect to other platforms/sites (like [Instagram])"</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class = "flex-container" style = "padding-right: 25px;">
+                <h2 style = "margin-bottom: -5px;"> Apple Music</h2>
+                <ul style = "text-align: left;">
+                    <li> Faster Release Time </li>
+                    <ul>
+                        <li style = "font-style: italic;"> "Some artists/albums are not immediately available on Spotify." </li>
+                        <li style = "font-style: italic"> "...[Apple Music] is faster unless the artist specifically uses [Spotify] as the primary output." </li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+
+        <h2 style = "margin: 20px;"> Disadvantages </h2>
+        <div class = "double-container">
+            <div class="flex-container" style = "padding-right: 25px;">
+                <h2 style = "margin-bottom: -5px;"> Spotify </h2>
+                <ul>
+                    <li> Slower release time </li>
+                    <ul>
+                        <li style = "font-style: italic">“...and songs don't usually come out timely.”</li>
+                        <li style = "font-style: italic">"[New] songs need to be uploaded more quickly."</li>
+                        <li style = "font-style: italic">"Some artists/albums are not immediately available on Spotify."</li>
+                        <li style = "font-style: italic">"The time it takes for a new Kpop release to become available needs to be shorter."</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class = "flex-container" style = "padding-right: 25px;">
+                <h2 style = "margin-bottom: -5px;"> Apple Music</h2>
+                <ul style = "text-align: left;">
+                    <li> Interface / playlist curation issues </li>
+                    <ul>
+                        <li style = "font-style: italic;"> "Better curated K-pop playlists, better interface" </li>
+                        <li style = "font-style: italic"> "Easier to download and curate playlists" </li>
+                        <li style = "font-style: italic"> "...[Apple Music] seems overwhelming that it is connected to iTunes and that there's an action of syncing and buying." </li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+</body>
+</html>
