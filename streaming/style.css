@@ -362,7 +362,6 @@ html, body {
 
 .flex-container-title {
     background-color: #9bdd00;
-    z-index: 100;
     border-style: solid;
     border-width: 1px;
     margin: 5px;
@@ -372,19 +371,18 @@ html, body {
     justify-content: center;
     text-align: left;
     width: 100%;
-    height: auto;
+    height: inherit;
 }
 
 .flex-container-title #main {
     color: white;
-    margin-top: 40px;
+    margin-top: 0px;
     height: 50px;
     font-size: 65px;
     font-weight: bold;
     margin-left: 40px;
     font-style: italic;
     padding-right: -30px;
-    margin-bottom:
 }
 
 .flex-container-title p {
@@ -449,30 +447,28 @@ li {
     width: 75px;
     text-align: center;
 }
-
 #survey_info {
-    margin-top: 225px;
-    margin-bottom: 65px;
-    margin-left: 40px;
-    margin-right: 20px;
+    width: 70%;
 }
-
 #survey_info p{
+    font-size: 7px;
     padding-bottom: 2px;
 }
 
-#colors {
-    margin-top: -40px;
+.colors {
     display: flex;
-    margin-left: 40px
+    flex-direction: row;
+    align-items: left;
+    align-content: flex-end;
+    padding-left: 100px;
 }
 
-#colors p{
+.colors p{
     padding-left: 5px;
     padding-right: 10px;
 }
 
-#green {
+#greencolor {
     width: 10px;
     height: 10px;
     border: solid white 1px;
@@ -483,6 +479,18 @@ li {
 #pink {
     width: 10px;
     height: 10px;
+    border: solid white 1px;
     border-radius: 2px;
     background-color: #fa57c1;
+}
+
+.info-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 225px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    margin-right: 20px;
+    padding-left: 10px;
 }
