@@ -227,7 +227,7 @@ span {
 #about {
     padding: 100px;
     text-align: center;
-    background-image: url("file:///Users/joseph/Desktop/WebDev/rainbow/assets/crayons(gradient).png");
+    background-image: url("https://josephhanbinlee.github.io/rainbow/assets/crayons(gradient).png");
     color: white;
     font-size: 80px;
 }
@@ -235,14 +235,14 @@ span {
 #notice {
     padding: 100px;
     text-align: center;
-    background-image: url("file:///Users/joseph/Desktop/WebDev/rainbow/assets/bulletin(gradient).png");
+    background-image: url("https://josephhanbinlee.github.io/rainbow/assets/bulletin(gradient).png");
     color: white;
 }
 
 #contact {
     padding: 100px;
     text-align: center;
-    background-image: url("file:///Users/joseph/Desktop/WebDev/rainbow/assets/contact(gradient).png");
+    background-image: url("https://josephhanbinlee.github.io/rainbow/assets/contact(gradient).png");
     color: white;
 }
 
