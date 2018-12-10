@@ -11,6 +11,10 @@ nav {
     left: 100px;
 }
 
+#icon {
+    transition: 0.3s all;
+}
+
 .mainmenu{
     background-color: transparent;
     padding: 10px;
@@ -33,6 +37,7 @@ nav {
     list-style-type: none;
     display: inline-block;
     font-size: 20px;
+    transition: 0.3s all;
 }
 
 .mainmenu li a {
