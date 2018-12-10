@@ -1,0 +1,251 @@
+body {
+    font-family: "Raleway"
+}
+/*navigation bar style*/
+nav {
+    text-align: left;
+    position: fixed;
+    z-index: 1000;
+    height: 100px;
+    top: 0;
+    left: 100px;
+}
+
+.mainmenu{
+    background-color: transparent;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    right: 0;
+    transition: 0.3s all;
+}
+
+.carousel-caption {
+    align-content: center;
+    align-items: center;
+    border: 2px white solid;
+    border-radius: 25px;
+    margin-bottom: 325px;
+}
+
+.mainmenu li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.mainmenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.mainmenu li a:hover {
+    background-color: skyblue;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+}
+
+/*image slideshow style*/
+.footer {
+    top: 0;
+    height: 200px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 1px;
+}
+
+.grid-container2 {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 1px;
+}
+
+.indexitem1 {
+    text-align: right;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: skyblue;
+}
+
+.indexitem2 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: tan;
+    color: white;
+}
+
+.indexitem2 li {
+    font-size: 25px;
+}
+
+.aboutitem1 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.aboutitem1 li {
+    padding-bottom: 10px;
+}
+
+.aboutitem2 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    margin-top: auto;
+}
+
+.aboutitem3 {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.aboutitem4 {
+    padding: 25px;
+    color: white;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: burlywood;
+}
+
+.contactitem1 {
+    margin-top: 75px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;  
+    padding-left: 50px
+}
+
+.contactitem1 li {
+    font-size: 20px;
+}
+.contactitem2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3; 
+}
+
+.mapouter{text-align:right;height:600px;width:600px;}
+
+.gmap_canvas {overflow:hidden;background:none!important;height:600px;width:600px;}
+
+span {
+    padding-right: 20px;
+}
+
+
+.noticeitem1 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.noticeitem2 {
+    color: white;
+    text-align: center;
+    padding: 25px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    background-color:#b22518;
+    outline: 2px solid white;
+    outline-offset: -30px;
+}
+
+.noticeitem3 {
+    text-align: center;
+    padding: 25px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;  
+    outline: 2px solid black;
+    outline-offset: -30px;
+}
+
+.noticeitem4 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2; 
+}
+
+.noticeitem5{
+    padding-bottom: 15px;
+    width: 75%;
+    margin: auto;
+    border: solid white 2px;
+    color: white;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #ffa3ca;
+}
+
+.noticeitem6{
+    width: 75%;
+    padding-bottom: 15px;
+    margin: auto;
+    border: solid white 2px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    background-color: #701c5d;
+    color: white;
+}
+
+#about {
+    padding: 100px;
+    text-align: center;
+    background-image: url("file:///Users/joseph/Desktop/WebDev/rainbow/assets/crayons(gradient).png");
+    color: white;
+    font-size: 80px;
+}
+
+#notice {
+    padding: 100px;
+    text-align: center;
+    background-image: url("file:///Users/joseph/Desktop/WebDev/rainbow/assets/bulletin(gradient).png");
+    color: white;
+}
+
+#contact {
+    padding: 100px;
+    text-align: center;
+    background-image: url("file:///Users/joseph/Desktop/WebDev/rainbow/assets/contact(gradient).png");
+    color: white;
+}
+
+.color-orange {
+  background-color: #F19031;
+}
