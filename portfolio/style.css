@@ -267,6 +267,7 @@ body {
     transition: 0.5s; /* sliding transition will take 0.5 seconds to complete */
     padding-top: 30px; /* place content 60px from the top */
 }
+    
 .sidenav a {
     font-family: "Raleway";
     padding: 8px 8px 8px 32px;
