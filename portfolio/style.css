@@ -749,7 +749,7 @@ video {
 } 
 }
 
-#gray {
+.gray {
     filter: grayscale(1)
 }
 
