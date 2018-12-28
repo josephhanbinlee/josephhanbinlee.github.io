@@ -750,7 +750,7 @@ video {
 }
 
 .gray {
-    filter: grayscale(1)
+    filter: grayscale(100%);
 }
 
 
