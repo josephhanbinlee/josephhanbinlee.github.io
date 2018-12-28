@@ -749,6 +749,9 @@ video {
 } 
 }
 
+#gray {
+    filter: grayscale(1)
+}
 
 
 
