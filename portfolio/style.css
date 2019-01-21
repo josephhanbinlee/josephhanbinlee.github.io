@@ -36,7 +36,7 @@ body {
 }
 /* style the close button */
 .sidenav .closebtn {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 25px;
     font-size: 36px;
@@ -88,7 +88,6 @@ body {
     color: white; 
     font-size: 12.5px; 
     width: 300px; 
-    line-height: 1.5;
 }
 #works_title {
     height: 75px;
@@ -338,8 +337,7 @@ body {
 #about p {
     color: white; 
     font-size: 15px; 
-    width: 380px; 
-    line-height: 1.5;
+    width: 380px;
 }
 #works_title {
     height: 75px;
@@ -581,7 +579,7 @@ body {
     background-image: url("https://josephhanbinlee.github.io/assets/about background.png");
     background-repeat: no-repeat;
     filter: grayscale(50%);
-    height: 695px;
+    height: 735px;
     width: auto;
     display: flex;
     align-items: center;
@@ -592,8 +590,7 @@ body {
 #about p {
     color: white; 
     font-size: 20px; 
-    width: 800px; 
-    line-height: 1.5;
+    width: 900px; 
 }
 #works_title {
     height: 125px;
